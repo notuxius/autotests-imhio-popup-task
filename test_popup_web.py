@@ -45,78 +45,78 @@ def _feedback_should_not_be_visible(driver):
 
 # Web desktop tests:
 def test_click_button_0_input_feedback_desktop(driver, chrome_options, connect_to_url_port):
-    popup_button = _if_popup_shown_wait_find_button(driver,
-                                                    driver.find_element_by_css_selector(".NPS__button-container.n0"))
+    popup_button = _if_popup_shown_wait_find_button(driver, driver.find_element_by_css_selector(
+        ".NPS__button-container.n0"))
     _click_button_input_feedback_click_send_wait(driver, popup_button)
     _button_should_not_be_clickable(popup_button)
 
 
 def test_click_button_1_input_feedback_desktop(driver, chrome_options, connect_to_url_port):
-    popup_button = _if_popup_shown_wait_find_button(driver,
-                                                    driver.find_element_by_css_selector(".NPS__button-container.n1"))
+    popup_button = _if_popup_shown_wait_find_button(driver, driver.find_element_by_css_selector(
+        ".NPS__button-container.n1"))
     _click_button_input_feedback_click_send_wait(driver, popup_button)
     _button_should_not_be_clickable(popup_button)
 
 
 def test_click_button_2_input_feedback_desktop(driver, chrome_options, connect_to_url_port):
-    popup_button = _if_popup_shown_wait_find_button(driver,
-                                                    driver.find_element_by_css_selector(".NPS__button-container.n2"))
+    popup_button = _if_popup_shown_wait_find_button(driver, driver.find_element_by_css_selector(
+        ".NPS__button-container.n2"))
     _click_button_input_feedback_click_send_wait(driver, popup_button)
     _button_should_not_be_clickable(popup_button)
 
 
 def test_click_button_3_input_feedback_desktop(driver, chrome_options, connect_to_url_port):
-    popup_button = _if_popup_shown_wait_find_button(driver,
-                                                    driver.find_element_by_css_selector(".NPS__button-container.n3"))
+    popup_button = _if_popup_shown_wait_find_button(driver, driver.find_element_by_css_selector(
+        ".NPS__button-container.n3"))
     _click_button_input_feedback_click_send_wait(driver, popup_button)
     _button_should_not_be_clickable(popup_button)
 
 
 def test_click_button_4_input_feedback_desktop(driver, chrome_options, connect_to_url_port):
-    popup_button = _if_popup_shown_wait_find_button(driver,
-                                                    driver.find_element_by_css_selector(".NPS__button-container.n4"))
+    popup_button = _if_popup_shown_wait_find_button(driver, driver.find_element_by_css_selector(
+        ".NPS__button-container.n4"))
     _click_button_input_feedback_click_send_wait(driver, popup_button)
     _button_should_not_be_clickable(popup_button)
 
 
 def test_click_button_5_input_feedback_desktop(driver, chrome_options, connect_to_url_port):
-    popup_button = _if_popup_shown_wait_find_button(driver,
-                                                    driver.find_element_by_css_selector(".NPS__button-container.n5"))
+    popup_button = _if_popup_shown_wait_find_button(driver, driver.find_element_by_css_selector(
+        ".NPS__button-container.n5"))
     _click_button_input_feedback_click_send_wait(driver, popup_button)
     _button_should_not_be_clickable(popup_button)
 
 
 def test_click_button_6_input_feedback_desktop(driver, chrome_options, connect_to_url_port):
-    popup_button = _if_popup_shown_wait_find_button(driver,
-                                                    driver.find_element_by_css_selector(".NPS__button-container.n6"))
+    popup_button = _if_popup_shown_wait_find_button(driver, driver.find_element_by_css_selector(
+        ".NPS__button-container.n6"))
     _click_button_input_feedback_click_send_wait(driver, popup_button)
     _button_should_not_be_clickable(popup_button)
 
 
 def test_click_button_7_desktop(driver, connect_to_url_port):
-    popup_button = _if_popup_shown_wait_find_button(driver,
-                                                    driver.find_element_by_css_selector(".NPS__button-container.n7"))
+    popup_button = _if_popup_shown_wait_find_button(driver, driver.find_element_by_css_selector(
+        ".NPS__button-container.n7"))
     _click_button_wait(driver, popup_button)
     _feedback_should_not_be_visible(driver)
 
 
 def test_click_button_8_desktop(driver, connect_to_url_port):
-    popup_button = _if_popup_shown_wait_find_button(driver,
-                                                    driver.find_element_by_css_selector(".NPS__button-container.n8"))
+    popup_button = _if_popup_shown_wait_find_button(driver, driver.find_element_by_css_selector(
+        ".NPS__button-container.n8"))
     _click_button_wait(driver, popup_button)
     _feedback_should_not_be_visible(driver)
 
 
 def test_click_button_9_desktop(driver, connect_to_url_port):
-    popup_button = _if_popup_shown_wait_find_button(driver,
-                                                    driver.find_element_by_css_selector(".NPS__button-container.n9"))
+    popup_button = _if_popup_shown_wait_find_button(driver, driver.find_element_by_css_selector(
+        ".NPS__button-container.n9"))
     _click_button_wait(driver, popup_button)
     _feedback_should_not_be_visible(driver)
 
 
 def test_click_button_10_desktop(driver, connect_to_url_port):
-    popup_button = _if_popup_shown_wait_find_button(driver,
-                                                    driver.find_element_by_css_selector(".NPS__button-container.n10"))
+    popup_button = _if_popup_shown_wait_find_button(driver, driver.find_element_by_css_selector(
+        ".NPS__button-container.n10"))
     _click_button_wait(driver, popup_button)
     _feedback_should_not_be_visible(driver)
 
