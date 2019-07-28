@@ -1,5 +1,6 @@
-import pytest
 import re
+
+import pytest
 
 
 @pytest.fixture
@@ -24,7 +25,6 @@ def chrome_options(request, chrome_options):
             chrome_options.add_experimental_option("mobileEmulation", device_name)
             # device_metrics = {"deviceMetrics": {"width": 760}}
             # chrome_options.add_experimental_option("mobileEmulation", device_metrics)
-
     return chrome_options
 
 
