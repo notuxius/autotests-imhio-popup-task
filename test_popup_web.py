@@ -21,8 +21,8 @@ def _click_button_input_feedback_click_send_wait(driver, popup_button):
     popup_button.click()
     feedback_area = driver.find_element_by_class_name("NPS__feedback-textarea")
     feedback_area.click()
-    # Random number possibly will be used for future database auto tests for finding the right fields
-    feedback_area.send_keys("Testing WebDriver {}".format(randint(0, 999999999999999999)))
+    # Unix timestamp possibly will be used for future database auto tests for finding the right fields
+    feedback_area.send_keys("Testing WebDriver {}".format(time.time()))
     send_button = driver.find_element_by_class_name("NPS__feedback-send")
     send_button.click()
     _sleep_time()

@@ -1,4 +1,5 @@
 # from json.decoder import JSONDecodeError
+import time
 from random import randint
 
 from locust import HttpLocust, TaskSet, task, runners
@@ -14,7 +15,7 @@ class PopupUserTasks(TaskSet):
 
             if 0 <= user_action <= 6:
                 payload = {"user_action": str(user_action),
-                           "feedback": "Load testing Locust {}".format(randint(0, 999999999999999999))}
+                           "feedback": "Load testing Locust {}".format(time.time())}
             else:
                 payload = {"user_action": str(user_action),
                            "feedback": ""}
